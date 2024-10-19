@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles.css';
 
 const EntranceForm = () => {
   const [numEntrances, setNumEntrances] = useState(1);
